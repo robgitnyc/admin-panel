@@ -20,7 +20,7 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: white;
+    color: inherit;
   }
 
 .container {
