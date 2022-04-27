@@ -2,10 +2,11 @@
     font-family: Roboto;
     src: url("./Roboto-Regular.ttf");
 }
-
+/*
 {
     border: 1px solid lightblue;
 }
+*/
 :root {
     font-family: "Roboto", sans-serif;
 
@@ -19,7 +20,7 @@ a {
     text-decoration: none;
 }
 a:visited {
-    color: inherit;
+    color: white;
   }
 
 .container {
