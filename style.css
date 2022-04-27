@@ -3,14 +3,24 @@
     src: url("./Roboto-Regular.ttf");
 }
 
-*{
+{
     border: 1px solid lightblue;
 }
 :root {
     font-family: "Roboto", sans-serif;
 
 }
+body {
+    margin: 0px;
+    padding: 0px;
+}
 
+a {
+    text-decoration: none;
+}
+a:visited {
+    color: inherit;
+  }
 
 .container {
     display: grid;
@@ -34,6 +44,7 @@
     display: grid;
     grid-template-rows: 15% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 1fr;
     grid-template-columns: minmax(225px, 1fr);
+    
 
 }
 .main {
@@ -117,7 +128,7 @@
 #top-left {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
 }
 .boxx {
     width: 70%;
@@ -128,7 +139,7 @@
 }
 #top-right {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
 }
 
@@ -142,6 +153,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-weight: bold;
 }
 .side-elem {
     color: white;
@@ -151,6 +163,7 @@
 }
 .side-p {
     padding: 8px;
+    font-weight: bold;
 }
 .side-elem > i {
     margin-left: 20%;
@@ -165,7 +178,7 @@
     */
 }
 #logo {
-    width: 50%;
+    width: 60%;
     height: auto;
 }
 #icon1 {
@@ -223,4 +236,7 @@
 }
 .card-icons {
     text-align: end;
+}
+.handle {
+    font-weight: bold;
 }
